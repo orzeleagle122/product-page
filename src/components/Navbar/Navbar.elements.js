@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Container} from '../../GlobalStyle';
 
 export const StyledNav=styled.nav`
     background: #101522;
@@ -17,5 +18,5 @@ export const StyledNavbarContainer=styled(Container)`
     justify-content: space-between;
     height: 80px;
 
-    $(Container)
+    ${Container}
 `;
