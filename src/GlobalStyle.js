@@ -31,7 +31,7 @@ export const Button=styled.button`
     background:${({primary})=>(primary?'#4b59f7':'#0467fb')};
     white-space: nowrap;
     padding: ${({big})=>(big?'12px 64px':'10px 20px')};
-    color: $fff;
+    color: #fff;
     font-size: ${({fontBig})=>(fontBig?'20px':'16px')};
     outline: none;
     border:none;
