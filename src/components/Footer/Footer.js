@@ -1,6 +1,7 @@
 import React from 'react';
-import {FooterLinksContainer,FooterLinksWrapper,FooterLinksItems,FooterLinkTitle,FooterLink,Form,FormInput,FooterContainer,FooterSubscription,FooterSubHeading,FooterSubText} from './Footer.elements';
+import {SocialMedia,SocialMediaWrap,SocalLogo,SocialIcons,WebsiteMediaWrap,SocialIconLink,FooterLinksContainer,FooterLinksWrapper,FooterLinksItems,FooterLinkTitle,FooterLink,Form,FormInput,FooterContainer,FooterSubscription,FooterSubHeading,FooterSubText} from './Footer.elements';
 import {Button} from '../../GlobalStyle';
+import {FaFacebook,FaInstagram,FaYoutube,FaTwitter,FaLinkedin} from 'react-icons/fa';
 
 const Footer = () => {
     return ( 
@@ -40,6 +41,8 @@ const Footer = () => {
                             <FooterLink to='/'>Investors</FooterLink>
                             <FooterLink to='/'>Terms od Services</FooterLink>
                         </FooterLinksItems>
+                        </FooterLinksWrapper>
+                        <FooterLinksWrapper>
                         <FooterLinksItems>
                             <FooterLinkTitle>
                                 Videos
@@ -62,6 +65,35 @@ const Footer = () => {
                         </FooterLinksItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
+                <SocialMedia>                
+                    <SocialMediaWrap>
+                        <SocalLogo to='/'>
+                            <SocialIcons>
+                                ULTRA
+                            </SocialIcons>
+                        </SocalLogo>
+                        <WebsiteMediaWrap>
+                            ULTRA (c) 2020
+                        </WebsiteMediaWrap>
+                        <SocialIcons>
+                            <SocialIconLink href='/' target="_blank" arial-label="Facebook">
+                                <FaFacebook/>
+                            </SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" arial-label="Instagram">
+                                <FaInstagram/>
+                            </SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" arial-label="Youtube" rel="noopener noreferrer">
+                                <FaYoutube/>
+                            </SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" arial-label="Twitter">
+                                <FaTwitter/>
+                            </SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" arial-label="Linkedin">
+                                <FaLinkedin/>
+                            </SocialIconLink>
+                        </SocialIcons>
+                    </SocialMediaWrap>
+                </SocialMedia>
             </FooterContainer>
         </>
      );
