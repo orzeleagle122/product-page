@@ -20,7 +20,7 @@ const InfoSection = ({img,alt,start,primary,topLine,headline,lightBg,imgStart,li
                                 <SubTitle lightTextDesc={lightTextDesc}>
                                     {description}
                                 </SubTitle>
-                                <Link to="/sing-up">
+                                <Link to="/sign-up">
                                     <Button big fontBig primary={primary}>
                                         {buttonLabel}
                                     </Button>
