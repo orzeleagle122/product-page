@@ -69,11 +69,11 @@ const Footer = () => {
                     <SocialMediaWrap>
                         <SocalLogo to='/'>
                             <SocialIcons>
-                                ULTRA
+                                Procuct Page
                             </SocialIcons>
                         </SocalLogo>
                         <WebsiteMediaWrap>
-                            ULTRA (c) 2020
+                        Procuct Page (c) 2020
                         </WebsiteMediaWrap>
                         <SocialIcons>
                             <SocialIconLink href='/' target="_blank" arial-label="Facebook">

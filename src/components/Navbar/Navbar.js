@@ -28,7 +28,7 @@ const Navbar = () => {
                     <StyledNavbarContainer>
                         <StyledNavLogo to='/' onClick={closeMobileMenu}>
                             <StyledNavIcon/>
-                            ULTRA
+                            Product Page
                         </StyledNavLogo>
                         <MobileIconHamburger onClick={handleClick}>
                             {click?<FaTimes/>:<FaBars/>}
