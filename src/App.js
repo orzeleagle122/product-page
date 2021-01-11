@@ -1,7 +1,7 @@
 import React from 'react';
 import GlobalStyle from './GlobalStyle';
 import {Navbar,Footer} from './components';
-import{BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import Services from './pages/Services/Services';
 import Products from './pages/Produts/Products';
@@ -12,7 +12,7 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
 
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <GlobalStyle/>
         <ScrollToTop/>
         <Navbar />
